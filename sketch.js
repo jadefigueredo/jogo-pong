@@ -42,7 +42,7 @@ function preload(){
 
 function setup() {
   createCanvas(600, 400);
-  //trilha.loop();
+  trilha.loop();
 }
 
 // altera a cor do preview e chama funções
@@ -141,7 +141,7 @@ function marcaPonto(){
   }
   if (xBolinha < 10){
     pontosDoOponente += 1;
-  //  ponto.play();
+    ponto.play();
   }
 }
 
